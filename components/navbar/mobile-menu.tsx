@@ -28,7 +28,7 @@ export default function MobileMenu({ navItems }: MobileMenuProps) {
               <div className="space-y-1">
                 <button
                   onClick={() => toggleItem(`sub-${item.title}`)}
-                  className="flex w-full items-center justify-between rounded-md px-3 py-2 text-sm hover:bg-muted"
+                  className="flex w-full items-center justify-between rounded-md px-3 py-2 text-sm hover:bg-muted text-gray-950"
                 >
                   {item.title}
                   <ChevronDown
@@ -41,7 +41,7 @@ export default function MobileMenu({ navItems }: MobileMenuProps) {
                       <Link
                         key={subIndex}
                         href={subItem.href || "#"}
-                        className="block rounded-md px-3 py-2 text-sm hover:bg-muted"
+                        className="block rounded-md px-3 py-2 text-sm hover:bg-muted text-gray-950"
                       >
                         {subItem.title}
                       </Link>
@@ -50,7 +50,7 @@ export default function MobileMenu({ navItems }: MobileMenuProps) {
                 )}
               </div>
             ) : (
-              <Link href={item.href || "#"} className="block rounded-md px-3 py-2 text-sm hover:bg-muted">
+              <Link href={item.href || "#"} className="block rounded-md px-3 py-2 text-sm hover:bg-muted text-gray-950">
                 {item.title}
               </Link>
             )}
