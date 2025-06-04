@@ -1,0 +1,42 @@
+{
+  "preparation": [
+    {
+      "slug": "tax-deductions-guide-2025",
+      "title": "Tax Deductions Guide for 2025: Maximize Your Refund",
+      "excerpt": "Discover all the tax deductions you can claim to reduce your tax bill and increase your refund.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Taxes",
+      "author": "Daniel Brown",
+      "publishedAt": "2025-01-18",
+      "readTime": "15 min read",
+      "tags": ["tax deductions", "tax refund", "tax planning"],
+      "content": "Comprehensive guide to tax deductions..."
+    },
+    {
+      "slug": "best-tax-software-2025",
+      "title": "Best Tax Software of 2025: Complete Comparison",
+      "excerpt": "Compare the top tax preparation software to find the best option for filing your taxes.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Taxes",
+      "author": "Nicole Davis",
+      "publishedAt": "2025-01-16",
+      "readTime": "12 min read",
+      "tags": ["tax software", "tax preparation", "filing taxes"],
+      "content": "Detailed review of tax software options..."
+    }
+  ],
+  "strategy-planning": [
+    {
+      "slug": "year-end-tax-planning-strategies",
+      "title": "Year-End Tax Planning Strategies to Save Money",
+      "excerpt": "Smart tax planning strategies to implement before year-end to minimize your tax liability.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Taxes",
+      "author": "Patricia Wilson",
+      "publishedAt": "2025-01-14",
+      "readTime": "13 min read",
+      "tags": ["tax planning", "tax strategies", "year-end planning"],
+      "content": "Effective year-end tax planning strategies..."
+    }
+  ]
+}

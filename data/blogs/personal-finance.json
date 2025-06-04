@@ -1,0 +1,68 @@
+{
+  "credit": [
+    {
+      "slug": "how-to-improve-credit-score-fast",
+      "title": "How to Improve Your Credit Score Fast: 7 Proven Strategies",
+      "excerpt": "Discover effective strategies to boost your credit score quickly and maintain good credit health.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Personal Finance",
+      "author": "Alex Chen",
+      "publishedAt": "2025-01-17",
+      "readTime": "12 min read",
+      "tags": ["credit score", "credit repair", "financial health"],
+      "content": "Proven strategies for credit improvement..."
+    },
+    {
+      "slug": "credit-report-errors-guide",
+      "title": "How to Dispute Credit Report Errors: A Step-by-Step Guide",
+      "excerpt": "Learn how to identify and dispute errors on your credit report to improve your credit score.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Personal Finance",
+      "author": "Rachel Green",
+      "publishedAt": "2025-01-14",
+      "readTime": "9 min read",
+      "tags": ["credit report", "disputes", "credit repair"],
+      "content": "Complete guide to disputing credit errors..."
+    }
+  ],
+  "money": [
+    {
+      "slug": "budgeting-for-beginners-2025",
+      "title": "Budgeting for Beginners: A Complete Guide for 2025",
+      "excerpt": "Learn the basics of budgeting and money management with practical tips and strategies.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Personal Finance",
+      "author": "Tom Anderson",
+      "publishedAt": "2025-01-16",
+      "readTime": "14 min read",
+      "tags": ["budgeting", "money management", "financial planning"],
+      "content": "Comprehensive budgeting guide for beginners..."
+    },
+    {
+      "slug": "emergency-fund-guide",
+      "title": "How to Build an Emergency Fund: Complete Guide",
+      "excerpt": "Learn how to build and maintain an emergency fund to protect yourself from financial emergencies.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Personal Finance",
+      "author": "Maria Garcia",
+      "publishedAt": "2025-01-13",
+      "readTime": "10 min read",
+      "tags": ["emergency fund", "savings", "financial security"],
+      "content": "Step-by-step emergency fund building guide..."
+    }
+  ],
+  "debt": [
+    {
+      "slug": "debt-snowball-vs-avalanche",
+      "title": "Debt Snowball vs Debt Avalanche: Which Method is Better?",
+      "excerpt": "Compare debt payoff strategies to choose the best method for eliminating your debt.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Personal Finance",
+      "author": "Steve Johnson",
+      "publishedAt": "2025-01-15",
+      "readTime": "11 min read",
+      "tags": ["debt payoff", "debt snowball", "debt avalanche"],
+      "content": "Detailed comparison of debt payoff methods..."
+    }
+  ]
+}

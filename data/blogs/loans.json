@@ -1,0 +1,28 @@
+{
+  "best-personal-loans": [
+    {
+      "slug": "personal-loan-vs-credit-card",
+      "title": "Personal Loan vs Credit Card: Which is Better for Large Purchases?",
+      "excerpt": "Compare personal loans and credit cards for financing major expenses and determine the most cost-effective option.",
+      "image": "/placeholder.svg?height=200&width=300",
+      "category": "Loans",
+      "author": "Amanda Rodriguez",
+      "publishedAt": "2024-01-25",
+      "readTime": "7 min read",
+      "tags": ["Personal Loans", "Credit Cards", "Financing"],
+      "content": "A comprehensive comparison of personal loans vs credit cards..."
+    },
+    {
+      "slug": "improve-personal-loan-approval-odds",
+      "title": "5 Ways to Improve Your Personal Loan Approval Odds",
+      "excerpt": "Learn proven strategies to increase your chances of getting approved for a personal loan with better terms.",
+      "image": "/placeholder.svg?height=200&width=300",
+      "category": "Loans",
+      "author": "Kevin Park",
+      "publishedAt": "2024-01-23",
+      "readTime": "5 min read",
+      "tags": ["Personal Loans", "Loan Approval", "Credit Score"],
+      "content": "Strategies to improve your personal loan approval chances..."
+    }
+  ]
+}

@@ -2,7 +2,10 @@ import type { Metadata } from "next"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Star, TrendingUp, Shield, Calculator, PiggyBank } from "lucide-react"
+import { Star, TrendingUp, Shield, Calculator, PiggyBank, ArrowRight } from "lucide-react"
+import { getBlogsBySubcategory } from "@/lib/blog-data"
+import BlogCard from "@/components/blog-card"
+import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Best High-Yield Savings Accounts of 2025 | Top Rates - FinanceWise",
@@ -292,6 +295,34 @@ export default function BestHighYieldSavingsPage() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section className="py-12">
+        <div className="container">
+          <h2 className="mb-8 text-center text-3xl font-bold">Savings Account Articles</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {getBlogsBySubcategory("banking", "savings").map((blog, index) => (
+              <BlogCard
+                key={blog.slug}
+                image={blog.image}
+                category={blog.category}
+                title={blog.title}
+                excerpt={blog.excerpt}
+                date={blog.publishedAt}
+                href={`/blog/banking/savings/${blog.slug}`}
+                aosDelay={index * 100}
+              />
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Button asChild variant="outline">
+              <Link href="/blog/banking">
+                View All Banking Articles <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>

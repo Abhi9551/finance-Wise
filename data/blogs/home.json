@@ -1,0 +1,54 @@
+{
+  "mortgage-rates": [
+    {
+      "slug": "mortgage-rates-forecast-2025",
+      "title": "Mortgage Rates Forecast for 2025: What to Expect",
+      "excerpt": "Expert predictions and analysis of where mortgage rates are headed in 2025.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Home",
+      "author": "Richard Johnson",
+      "publishedAt": "2025-01-18",
+      "readTime": "13 min read",
+      "tags": ["mortgage rates", "forecast", "real estate"],
+      "content": "Detailed analysis of mortgage rate trends..."
+    },
+    {
+      "slug": "fixed-vs-adjustable-rate-mortgages",
+      "title": "Fixed vs Adjustable Rate Mortgages: Which is Right for You?",
+      "excerpt": "Compare fixed and adjustable rate mortgages to choose the best option for your home purchase.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Home",
+      "author": "Lisa Thompson",
+      "publishedAt": "2025-01-15",
+      "readTime": "10 min read",
+      "tags": ["fixed rate", "adjustable rate", "mortgages"],
+      "content": "Complete guide to mortgage types..."
+    }
+  ],
+  "buying": [
+    {
+      "slug": "first-time-homebuyer-guide-2025",
+      "title": "First-Time Homebuyer's Guide for 2025",
+      "excerpt": "Everything first-time homebuyers need to know about the home buying process in 2025.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Home",
+      "author": "Michelle Brown",
+      "publishedAt": "2025-01-16",
+      "readTime": "18 min read",
+      "tags": ["first-time buyers", "home buying", "real estate"],
+      "content": "Comprehensive first-time buyer guide..."
+    },
+    {
+      "slug": "how-much-house-can-i-afford",
+      "title": "How Much House Can I Afford? A Complete Calculator Guide",
+      "excerpt": "Learn how to calculate how much house you can afford based on your income, debts, and financial goals.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Home",
+      "author": "Kevin Park",
+      "publishedAt": "2025-01-12",
+      "readTime": "11 min read",
+      "tags": ["affordability", "home buying", "budgeting"],
+      "content": "Step-by-step affordability calculation..."
+    }
+  ]
+}

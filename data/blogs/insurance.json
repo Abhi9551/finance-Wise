@@ -1,0 +1,56 @@
+{
+  "auto": [
+    {
+      "slug": "cheapest-car-insurance-companies-2025",
+      "title": "Cheapest Car Insurance Companies of 2025",
+      "excerpt": "Find the most affordable car insurance companies without sacrificing coverage quality.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Insurance",
+      "author": "Patricia Wilson",
+      "publishedAt": "2025-01-17",
+      "readTime": "12 min read",
+      "tags": ["car insurance", "cheap insurance", "auto coverage"],
+      "content": "Complete guide to affordable car insurance..."
+    },
+    {
+      "slug": "how-to-lower-car-insurance-costs",
+      "title": "10 Ways to Lower Your Car Insurance Costs",
+      "excerpt": "Discover proven strategies to reduce your car insurance premiums without reducing coverage.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Insurance",
+      "author": "Brian Lee",
+      "publishedAt": "2025-01-13",
+      "readTime": "9 min read",
+      "tags": ["car insurance", "save money", "insurance tips"],
+      "content": "Practical tips for lowering insurance costs..."
+    }
+  ],
+  "life": [
+    {
+      "slug": "term-vs-whole-life-insurance",
+      "title": "Term vs Whole Life Insurance: Which Should You Choose?",
+      "excerpt": "Compare term and whole life insurance to determine the best life insurance option for your needs.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Insurance",
+      "author": "Susan Davis",
+      "publishedAt": "2025-01-15",
+      "readTime": "11 min read",
+      "tags": ["life insurance", "term life", "whole life"],
+      "content": "Comprehensive comparison of life insurance types..."
+    }
+  ],
+  "home": [
+    {
+      "slug": "best-homeowners-insurance-2025",
+      "title": "Best Homeowners Insurance Companies of 2025",
+      "excerpt": "Find the best homeowners insurance companies with comprehensive coverage and competitive rates.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Insurance",
+      "author": "Jennifer Martinez",
+      "publishedAt": "2025-01-14",
+      "readTime": "10 min read",
+      "tags": ["homeowners insurance", "home coverage", "property insurance"],
+      "content": "Complete guide to homeowners insurance..."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "savings": [
+    {
+      "slug": "best-high-yield-savings-accounts-2025",
+      "title": "Best High-Yield Savings Accounts of 2025",
+      "excerpt": "Find the highest APY rates and best features from top online banks and credit unions.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Rachel Green",
+      "publishedAt": "2025-01-16",
+      "readTime": "12 min read",
+      "tags": ["savings accounts", "high yield", "APY", "online banking"],
+      "content": "Comprehensive guide to high-yield savings accounts..."
+    },
+    {
+      "slug": "savings-account-vs-money-market",
+      "title": "Savings Account vs Money Market Account: Which is Better?",
+      "excerpt": "Compare savings accounts and money market accounts to choose the best option for your money.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Tom Anderson",
+      "publishedAt": "2025-01-12",
+      "readTime": "8 min read",
+      "tags": ["savings accounts", "money market", "comparison"],
+      "content": "Detailed comparison of account types..."
+    },
+    {
+      "slug": "emergency-fund-savings-strategy",
+      "title": "How to Build an Emergency Fund: Complete Guide",
+      "excerpt": "Learn the best strategies for building and maintaining an emergency fund with high-yield savings accounts.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Sarah Johnson",
+      "publishedAt": "2025-01-10",
+      "readTime": "10 min read",
+      "tags": ["emergency fund", "savings strategy", "financial planning"],
+      "content": "Step-by-step guide to emergency fund building..."
+    }
+  ],
+  "checking": [
+    {
+      "slug": "best-checking-accounts-2025",
+      "title": "Best Checking Accounts of 2025",
+      "excerpt": "Find the best checking accounts with no fees, high interest rates, and great features.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Maria Garcia",
+      "publishedAt": "2025-01-14",
+      "readTime": "10 min read",
+      "tags": ["checking accounts", "no fees", "banking"],
+      "content": "Complete guide to the best checking accounts..."
+    },
+    {
+      "slug": "online-vs-traditional-banks",
+      "title": "Online Banks vs Traditional Banks: Pros and Cons",
+      "excerpt": "Compare online and traditional banks to determine which type of banking is right for you.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Steve Johnson",
+      "publishedAt": "2025-01-10",
+      "readTime": "9 min read",
+      "tags": ["online banking", "traditional banks", "comparison"],
+      "content": "Comprehensive comparison of banking options..."
+    },
+    {
+      "slug": "free-checking-account-guide",
+      "title": "How to Find the Best Free Checking Account",
+      "excerpt": "Discover what to look for in a free checking account and avoid hidden fees.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "David Kim",
+      "publishedAt": "2025-01-08",
+      "readTime": "7 min read",
+      "tags": ["free checking", "no fees", "banking tips"],
+      "content": "Guide to finding truly free checking accounts..."
+    }
+  ],
+  "cds": [
+    {
+      "slug": "best-cd-rates-2025",
+      "title": "Best CD Rates of 2025",
+      "excerpt": "Find the highest certificate of deposit rates and terms from top banks and credit unions.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Daniel Brown",
+      "publishedAt": "2025-01-15",
+      "readTime": "11 min read",
+      "tags": ["CD rates", "certificates of deposit", "fixed income"],
+      "content": "Complete guide to the best CD rates..."
+    },
+    {
+      "slug": "cd-laddering-strategy",
+      "title": "CD Laddering Strategy: Maximize Your Returns",
+      "excerpt": "Learn how to use CD laddering to maximize returns while maintaining liquidity.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Nicole Davis",
+      "publishedAt": "2025-01-08",
+      "readTime": "7 min read",
+      "tags": ["CD laddering", "investment strategy", "fixed income"],
+      "content": "Step-by-step guide to CD laddering..."
+    },
+    {
+      "slug": "short-term-vs-long-term-cds",
+      "title": "Short-Term vs Long-Term CDs: Which is Better?",
+      "excerpt": "Compare the benefits and drawbacks of short-term and long-term certificate of deposits.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Jennifer Martinez",
+      "publishedAt": "2025-01-06",
+      "readTime": "8 min read",
+      "tags": ["CD terms", "investment strategy", "interest rates"],
+      "content": "Analysis of CD term selection strategies..."
+    }
+  ],
+  "online-banks": [
+    {
+      "slug": "best-online-banks-2025",
+      "title": "Best Online Banks of 2025: Complete Review",
+      "excerpt": "Discover the top online banks offering the best rates, features, and customer service.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Alex Thompson",
+      "publishedAt": "2025-01-18",
+      "readTime": "15 min read",
+      "tags": ["online banking", "digital banks", "bank reviews"],
+      "content": "Comprehensive review of top online banks..."
+    },
+    {
+      "slug": "online-banking-security-tips",
+      "title": "Online Banking Security: How to Protect Your Money",
+      "excerpt": "Essential security tips for safe online banking and protecting your financial information.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Banking",
+      "author": "Lisa Chen",
+      "publishedAt": "2025-01-16",
+      "readTime": "9 min read",
+      "tags": ["online banking", "security", "fraud protection"],
+      "content": "Complete guide to online banking security..."
+    }
+  ]
+}

@@ -4,9 +4,11 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Star, Check, CreditCard, Shield, Zap } from "lucide-react"
+import { Star, Check, CreditCard, Shield, Zap, ArrowRight } from "lucide-react"
 import CreditCardComparison from "@/components/credit-cards/credit-card-comparison"
 import CreditCardGuide from "@/components/credit-cards/credit-card-guide"
+import { getBlogsBySubcategory } from "@/lib/blog-data"
+import BlogCard from "@/components/blog-card"
 
 export const metadata: Metadata = {
   title: "Best Credit Cards of 2025 | Compare Top Rated Cards - FinanceWise",
@@ -355,6 +357,34 @@ export default function BestCreditCardsPage() {
       <section className="py-12">
         <div className="container">
           <CreditCardGuide />
+        </div>
+      </section>
+
+      {/* Related Articles */}
+      <section className="py-12">
+        <div className="container">
+          <h2 className="mb-8 text-center text-3xl font-bold">Related Articles</h2>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {getBlogsBySubcategory("credit-cards", "best").map((blog, index) => (
+              <BlogCard
+                key={blog.slug}
+                image={blog.image}
+                category={blog.category}
+                title={blog.title}
+                excerpt={blog.excerpt}
+                date={blog.publishedAt}
+                href={`/blog/credit-cards/best/${blog.slug}`}
+                aosDelay={index * 100}
+              />
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Button asChild variant="outline">
+              <Link href="/blog/credit-cards">
+                View All Credit Card Articles <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 

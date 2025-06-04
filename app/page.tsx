@@ -2,12 +2,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, CreditCard, Landmark, LineChart, PiggyBank, Shield, Wallet } from "lucide-react"
+import { ArrowRight, CreditCard, Landmark, Wallet, Building2, Calculator, Home } from "lucide-react"
 import FeatureCard from "@/components/feature-card"
 import BlogCard from "@/components/blog-card"
 import CompareCards from "@/components/compare-cards"
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
@@ -22,13 +22,10 @@ export default function Home() {
                 Make smarter financial decisions
               </h1>
               <p className="mb-8 text-xl text-muted-foreground">
-                Compare credit cards, banking options, investments, loans, and insurance to find the best financial
-                products for your needs.
+                Compare credit cards, banking options, home loans, personal loans, small business financing, and tax
+                solutions to find the best financial products for your needs.
               </p>
               <div className="flex flex-col gap-4 sm:flex-row">
-                <Button size="lg" className="font-medium">
-                  Get Started
-                </Button>
                 <Button size="lg" variant="outline" className="font-medium">
                   Compare Products
                 </Button>
@@ -57,8 +54,8 @@ export default function Home() {
               Find the right financial products
             </h2>
             <p data-aos="fade-up" data-aos-delay="100" className="mx-auto max-w-2xl text-muted-foreground">
-              We help you compare and choose the best credit cards, banking products, investments, loans, and insurance
-              for your unique needs.
+              We help you compare and choose the best credit cards, banking products, home loans, personal loans, small
+              business financing, and tax solutions for your unique needs.
             </p>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -77,31 +74,31 @@ export default function Home() {
               aosDelay={100}
             />
             <FeatureCard
-              icon={<LineChart className="h-10 w-10 text-primary" />}
-              title="Investing"
-              description="Discover the best brokerages and strategies to grow your wealth."
-              href="/investing"
+              icon={<Home className="h-10 w-10 text-primary" />}
+              title="Home/Mortgage"
+              description="Find the best mortgage rates and home financing options."
+              href="/home"
               aosDelay={200}
             />
             <FeatureCard
               icon={<Wallet className="h-10 w-10 text-primary" />}
               title="Loans"
-              description="Compare personal, student, mortgage, and auto loans for your needs."
+              description="Compare personal, student, auto, and other loan options."
               href="/loans"
               aosDelay={300}
             />
             <FeatureCard
-              icon={<Shield className="h-10 w-10 text-primary" />}
-              title="Insurance"
-              description="Find the best coverage for auto, home, life, and health insurance."
-              href="/insurance"
+              icon={<Building2 className="h-10 w-10 text-primary" />}
+              title="Small Business"
+              description="Business loans, credit cards, and financial tools for entrepreneurs."
+              href="/small-business"
               aosDelay={400}
             />
             <FeatureCard
-              icon={<PiggyBank className="h-10 w-10 text-primary" />}
-              title="Personal Finance"
-              description="Learn budgeting, saving, and debt management strategies."
-              href="/personal-finance"
+              icon={<Calculator className="h-10 w-10 text-primary" />}
+              title="Taxes"
+              description="Tax software, calculators, and expert advice for filing season."
+              href="/taxes"
               aosDelay={500}
             />
           </div>
@@ -153,20 +150,20 @@ export default function Home() {
             />
             <BlogCard
               image="/placeholder.svg?height=200&width=400"
-              category="Investing"
-              title="Beginner's Guide to Index Fund Investing"
-              excerpt="Everything you need to know about getting started with index funds and building a diversified portfolio."
+              category="Banking"
+              title="Best High-Yield Savings Accounts for 2025"
+              excerpt="Compare the top savings accounts offering the highest interest rates and best features for your money."
               date="May 25, 2025"
-              href="/blog/index-fund-investing"
+              href="/blog/best-high-yield-savings"
               aosDelay={100}
             />
             <BlogCard
               image="/placeholder.svg?height=200&width=400"
-              category="Personal Finance"
-              title="5 Strategies to Pay Off Debt Faster"
-              excerpt="Practical tips and strategies to help you eliminate debt and achieve financial freedom sooner."
+              category="Home/Mortgage"
+              title="5 Tips to Get the Best Mortgage Rate"
+              excerpt="Practical strategies to help you secure the lowest possible mortgage rate and save thousands over the life of your loan."
               date="May 22, 2025"
-              href="/blog/pay-off-debt-faster"
+              href="/blog/best-mortgage-rates-tips"
               aosDelay={200}
             />
           </div>
@@ -192,7 +189,7 @@ export default function Home() {
               decisions.
             </p>
             <Button data-aos="fade-up" data-aos-delay="200" size="lg" variant="secondary" className="font-medium">
-              Get Started Now
+              Start Comparing Now
             </Button>
           </div>
         </div>

@@ -1,0 +1,28 @@
+{
+  "best-robo-advisors": [
+    {
+      "slug": "robo-advisor-vs-financial-advisor",
+      "title": "Robo-Advisor vs Traditional Financial Advisor: Which is Right for You?",
+      "excerpt": "Compare the benefits and drawbacks of robo-advisors versus traditional financial advisors for your investment needs.",
+      "image": "/placeholder.svg?height=200&width=300",
+      "category": "Investing",
+      "author": "Lisa Thompson",
+      "publishedAt": "2024-01-22",
+      "readTime": "8 min read",
+      "tags": ["Robo-Advisors", "Financial Advisors", "Investment Management"],
+      "content": "A detailed comparison of robo-advisors and traditional advisors..."
+    },
+    {
+      "slug": "tax-loss-harvesting-explained",
+      "title": "Tax-Loss Harvesting: How Robo-Advisors Save You Money",
+      "excerpt": "Understand how automated tax-loss harvesting works and how much it can save you in taxes each year.",
+      "image": "/placeholder.svg?height=200&width=300",
+      "category": "Investing",
+      "author": "Robert Chang",
+      "publishedAt": "2024-01-19",
+      "readTime": "6 min read",
+      "tags": ["Tax-Loss Harvesting", "Robo-Advisors", "Tax Strategy"],
+      "content": "An explanation of tax-loss harvesting and its benefits..."
+    }
+  ]
+}
