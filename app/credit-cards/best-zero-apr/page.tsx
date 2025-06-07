@@ -317,7 +317,7 @@ export default function BestZeroAprPage() {
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {blogs.slice(0, 3).map((blog, index) => (
-                  <BlogCard key={index} {...blog} />
+                  <BlogCard date={""} href={""} key={index} {...blog} />
                 ))}
               </div>
               <div className="text-center mt-8 md:hidden">

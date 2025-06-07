@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description:
     "Compare credit cards, banking options, investments, loans, and insurance to make smarter financial decisions.",
   keywords: "personal finance, credit cards, banking, investing, loans, insurance, financial tools",
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({

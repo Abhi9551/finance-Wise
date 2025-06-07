@@ -1,8 +1,236 @@
 {
+  "best": [
+    {
+      "slug": "best-credit-cards-2025-complete-guide",
+      "title": "Best Credit Cards of 2025: Complete Expert Guide",
+      "excerpt": "Our comprehensive guide to the best credit cards of 2025, featuring top picks for rewards, cash back, travel, and more.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Sarah Johnson",
+      "publishedAt": "2024-12-15",
+      "readTime": "12 min read",
+      "tags": ["best credit cards", "2025", "expert guide"],
+      "content": "Complete guide to the best credit cards of 2025..."
+    },
+    {
+      "slug": "how-to-choose-best-credit-card",
+      "title": "How to Choose the Best Credit Card for Your Needs",
+      "excerpt": "Step-by-step guide to selecting the perfect credit card based on your spending habits and financial goals.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Mike Chen",
+      "publishedAt": "2024-12-10",
+      "readTime": "8 min read",
+      "tags": ["choosing", "guide", "selection"],
+      "content": "Detailed guide on choosing the right credit card..."
+    },
+    {
+      "slug": "credit-card-approval-tips-2025",
+      "title": "Credit Card Approval Tips: Increase Your Chances in 2025",
+      "excerpt": "Expert tips and strategies to improve your credit card approval odds and get the cards you want.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Jennifer Davis",
+      "publishedAt": "2024-12-05",
+      "readTime": "10 min read",
+      "tags": ["approval", "tips", "strategy"],
+      "content": "Tips for getting approved for credit cards..."
+    }
+  ],
+  "best-bonus-offers": [
+    {
+      "slug": "highest-credit-card-bonuses-2025",
+      "title": "Highest Credit Card Sign-Up Bonuses of 2025",
+      "excerpt": "Discover the credit cards offering the most generous welcome bonuses worth $1,000+ in value.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "David Wilson",
+      "publishedAt": "2024-12-12",
+      "readTime": "9 min read",
+      "tags": ["bonuses", "welcome offers", "sign-up"],
+      "content": "Guide to the highest credit card bonuses..."
+    },
+    {
+      "slug": "how-to-meet-credit-card-spending-requirements",
+      "title": "How to Meet Credit Card Spending Requirements Safely",
+      "excerpt": "Smart strategies to meet minimum spending requirements for credit card bonuses without overspending.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Emily Rodriguez",
+      "publishedAt": "2024-12-08",
+      "readTime": "7 min read",
+      "tags": ["spending requirements", "strategy", "bonuses"],
+      "content": "Safe ways to meet spending requirements..."
+    },
+    {
+      "slug": "credit-card-bonus-value-calculator",
+      "title": "How to Calculate Credit Card Bonus Value",
+      "excerpt": "Learn how to properly value credit card sign-up bonuses to find the best offers.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Alex Thompson",
+      "publishedAt": "2024-12-03",
+      "readTime": "6 min read",
+      "tags": ["bonus value", "calculation", "analysis"],
+      "content": "Guide to calculating bonus value..."
+    }
+  ],
+  "best-balance-transfer": [
+    {
+      "slug": "balance-transfer-guide-2025",
+      "title": "Complete Balance Transfer Guide 2025",
+      "excerpt": "Everything you need to know about balance transfers, from choosing cards to maximizing savings.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Lisa Park",
+      "publishedAt": "2024-12-14",
+      "readTime": "11 min read",
+      "tags": ["balance transfer", "debt payoff", "guide"],
+      "content": "Complete guide to balance transfers..."
+    },
+    {
+      "slug": "balance-transfer-mistakes-avoid",
+      "title": "5 Balance Transfer Mistakes That Cost You Money",
+      "excerpt": "Common balance transfer mistakes and how to avoid them to maximize your debt payoff savings.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Robert Kim",
+      "publishedAt": "2024-12-09",
+      "readTime": "8 min read",
+      "tags": ["mistakes", "balance transfer", "debt"],
+      "content": "Common balance transfer mistakes..."
+    },
+    {
+      "slug": "balance-transfer-vs-personal-loan",
+      "title": "Balance Transfer vs Personal Loan: Which is Better?",
+      "excerpt": "Compare balance transfer cards and personal loans to find the best debt consolidation option.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Amanda Foster",
+      "publishedAt": "2024-12-04",
+      "readTime": "9 min read",
+      "tags": ["comparison", "personal loan", "debt consolidation"],
+      "content": "Balance transfer vs personal loan comparison..."
+    }
+  ],
+  "best-travel": [
+    {
+      "slug": "best-travel-credit-cards-2025",
+      "title": "Best Travel Credit Cards of 2025: Expert Reviews",
+      "excerpt": "Top travel credit cards for earning miles, points, and enjoying premium travel benefits.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Kevin Martinez",
+      "publishedAt": "2024-12-13",
+      "readTime": "13 min read",
+      "tags": ["travel", "miles", "points"],
+      "content": "Best travel credit cards review..."
+    },
+    {
+      "slug": "maximize-travel-rewards-strategy",
+      "title": "How to Maximize Travel Rewards: Advanced Strategies",
+      "excerpt": "Expert strategies for earning and redeeming travel rewards to get maximum value from your cards.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Maria Garcia",
+      "publishedAt": "2024-12-07",
+      "readTime": "10 min read",
+      "tags": ["travel rewards", "strategy", "maximization"],
+      "content": "Advanced travel rewards strategies..."
+    },
+    {
+      "slug": "travel-credit-card-perks-guide",
+      "title": "Travel Credit Card Perks: Complete Guide to Benefits",
+      "excerpt": "Comprehensive guide to travel credit card perks including lounge access, travel insurance, and more.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "James Wilson",
+      "publishedAt": "2024-12-02",
+      "readTime": "12 min read",
+      "tags": ["travel perks", "benefits", "guide"],
+      "content": "Guide to travel credit card perks..."
+    }
+  ],
+  "best-cash-back": [
+    {
+      "slug": "best-cash-back-credit-cards-2025",
+      "title": "Best Cash Back Credit Cards of 2025",
+      "excerpt": "Top cash back credit cards offering the highest rates and most valuable rewards programs.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Nicole Brown",
+      "publishedAt": "2024-12-11",
+      "readTime": "10 min read",
+      "tags": ["cash back", "rewards", "2025"],
+      "content": "Best cash back credit cards guide..."
+    },
+    {
+      "slug": "cash-back-vs-points-comparison",
+      "title": "Cash Back vs Points: Which Rewards Type is Better?",
+      "excerpt": "Compare cash back and points rewards to determine which type offers better value for your spending.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Daniel Lee",
+      "publishedAt": "2024-12-06",
+      "readTime": "8 min read",
+      "tags": ["cash back", "points", "comparison"],
+      "content": "Cash back vs points comparison..."
+    },
+    {
+      "slug": "maximize-cash-back-rewards-tips",
+      "title": "10 Tips to Maximize Your Cash Back Rewards",
+      "excerpt": "Expert tips and strategies to earn maximum cash back from your credit card spending.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Rachel Green",
+      "publishedAt": "2024-12-01",
+      "readTime": "7 min read",
+      "tags": ["cash back", "tips", "maximization"],
+      "content": "Tips for maximizing cash back rewards..."
+    }
+  ],
+  "best-zero-apr": [
+    {
+      "slug": "best-0-apr-credit-cards-2025",
+      "title": "Best 0% APR Credit Cards of 2025",
+      "excerpt": "Find the best 0% APR credit cards with the longest intro periods for purchases and balance transfers.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Steven Clark",
+      "publishedAt": "2024-12-10",
+      "readTime": "9 min read",
+      "tags": ["0% APR", "intro offers", "financing"],
+      "content": "Best 0% APR credit cards guide..."
+    },
+    {
+      "slug": "how-to-use-0-apr-cards-effectively",
+      "title": "How to Use 0% APR Credit Cards Effectively",
+      "excerpt": "Smart strategies for using 0% APR credit cards to finance purchases and pay off debt.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Michelle Davis",
+      "publishedAt": "2024-12-05",
+      "readTime": "8 min read",
+      "tags": ["0% APR", "strategy", "financing"],
+      "content": "How to use 0% APR cards effectively..."
+    },
+    {
+      "slug": "0-apr-vs-low-interest-cards",
+      "title": "0% APR vs Low Interest Credit Cards: Which is Better?",
+      "excerpt": "Compare 0% APR intro offers with low ongoing interest rates to find the best financing option.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Thomas Anderson",
+      "publishedAt": "2024-11-30",
+      "readTime": "7 min read",
+      "tags": ["0% APR", "low interest", "comparison"],
+      "content": "0% APR vs low interest comparison..."
+    }
+  ],
   "best-rewards": [
     {
-      "slug": "maximize-credit-card-rewards-2024",
-      "title": "How to Maximize Credit Card Rewards in 2024",
+      "slug": "maximize-credit-card-rewards-2025",
+      "title": "How to Maximize Credit Card Rewards in 2025",
       "excerpt": "Learn proven strategies to earn maximum rewards from your credit cards while avoiding common pitfalls.",
       "image": "/placeholder.svg?height=400&width=600",
       "category": "Credit Cards",
@@ -23,12 +251,24 @@
       "readTime": "12 min read",
       "tags": ["comparison", "rewards", "programs"],
       "content": "Detailed comparison of major rewards programs..."
+    },
+    {
+      "slug": "credit-card-points-redemption-guide",
+      "title": "Credit Card Points Redemption: Complete Guide",
+      "excerpt": "Master the art of redeeming credit card points for maximum value across different programs.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Jennifer Davis",
+      "publishedAt": "2024-01-08",
+      "readTime": "10 min read",
+      "tags": ["points", "redemption", "value"],
+      "content": "Complete guide to points redemption..."
     }
   ],
   "best-airline": [
     {
-      "slug": "airline-credit-cards-worth-it-2024",
-      "title": "Are Airline Credit Cards Worth It in 2024?",
+      "slug": "airline-credit-cards-worth-it-2025",
+      "title": "Are Airline Credit Cards Worth It in 2025?",
       "excerpt": "Analyze whether airline credit cards provide enough value to justify their annual fees and restrictions.",
       "image": "/placeholder.svg?height=400&width=600",
       "category": "Credit Cards",
@@ -49,6 +289,18 @@
       "readTime": "9 min read",
       "tags": ["miles", "earning", "strategy"],
       "content": "Comprehensive guide to earning airline miles..."
+    },
+    {
+      "slug": "best-airline-credit-cards-comparison",
+      "title": "Best Airline Credit Cards: Delta vs United vs American",
+      "excerpt": "Compare the top airline credit cards to find which offers the best value for your travel needs.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Maria Garcia",
+      "publishedAt": "2024-01-05",
+      "readTime": "11 min read",
+      "tags": ["airline", "comparison", "travel"],
+      "content": "Detailed airline credit card comparison..."
     }
   ],
   "best-student": [
@@ -75,12 +327,24 @@
       "readTime": "6 min read",
       "tags": ["student", "mistakes", "tips"],
       "content": "Common student credit card mistakes and solutions..."
+    },
+    {
+      "slug": "first-credit-card-college-guide",
+      "title": "Getting Your First Credit Card in College: Complete Guide",
+      "excerpt": "Step-by-step guide for college students to get their first credit card and start building credit.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Rachel Green",
+      "publishedAt": "2024-01-09",
+      "readTime": "8 min read",
+      "tags": ["first credit card", "college", "guide"],
+      "content": "Guide to getting your first credit card..."
     }
   ],
   "best-groceries": [
     {
-      "slug": "grocery-credit-cards-comparison-2024",
-      "title": "Best Grocery Credit Cards Comparison 2024",
+      "slug": "grocery-credit-cards-comparison-2025",
+      "title": "Best Grocery Credit Cards Comparison 2025",
       "excerpt": "Compare the top grocery credit cards to find which offers the highest cash back on supermarket purchases.",
       "image": "/placeholder.svg?height=400&width=600",
       "category": "Credit Cards",
@@ -101,6 +365,18 @@
       "readTime": "8 min read",
       "tags": ["grocery", "rewards", "tips"],
       "content": "Tips for maximizing grocery rewards..."
+    },
+    {
+      "slug": "grocery-store-credit-card-categories",
+      "title": "Understanding Grocery Store Categories for Credit Cards",
+      "excerpt": "Learn which stores count as grocery stores for credit card rewards and which don't.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Nicole Brown",
+      "publishedAt": "2024-01-06",
+      "readTime": "6 min read",
+      "tags": ["grocery", "categories", "rewards"],
+      "content": "Guide to grocery store categories..."
     }
   ],
   "compare": [
@@ -127,6 +403,170 @@
       "readTime": "7 min read",
       "tags": ["features", "comparison", "value"],
       "content": "Analysis of important credit card features..."
+    },
+    {
+      "slug": "credit-card-comparison-checklist",
+      "title": "Credit Card Comparison Checklist: What to Look For",
+      "excerpt": "Use this comprehensive checklist when comparing credit cards to ensure you don't miss important details.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Daniel Lee",
+      "publishedAt": "2024-01-04",
+      "readTime": "8 min read",
+      "tags": ["checklist", "comparison", "guide"],
+      "content": "Credit card comparison checklist..."
+    }
+  ],
+  "recommendation": [
+    {
+      "slug": "credit-card-recommendation-quiz-guide",
+      "title": "Find Your Perfect Credit Card: Complete Quiz Guide",
+      "excerpt": "Take our comprehensive quiz to get personalized credit card recommendations based on your needs.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Sarah Johnson",
+      "publishedAt": "2024-01-15",
+      "readTime": "5 min read",
+      "tags": ["recommendation", "quiz", "personalized"],
+      "content": "Credit card recommendation quiz guide..."
+    },
+    {
+      "slug": "credit-card-approval-odds-calculator",
+      "title": "Check Your Credit Card Approval Odds",
+      "excerpt": "Learn how to estimate your approval odds for different credit cards based on your credit profile.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Mike Chen",
+      "publishedAt": "2024-01-12",
+      "readTime": "7 min read",
+      "tags": ["approval odds", "credit score", "calculator"],
+      "content": "Guide to checking approval odds..."
+    },
+    {
+      "slug": "personalized-credit-card-recommendations",
+      "title": "How to Get Personalized Credit Card Recommendations",
+      "excerpt": "Learn how to analyze your spending patterns to find credit cards that maximize your rewards.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Jennifer Davis",
+      "publishedAt": "2024-01-10",
+      "readTime": "9 min read",
+      "tags": ["personalized", "recommendations", "spending"],
+      "content": "Guide to personalized recommendations..."
+    }
+  ],
+  "reviews": [
+    {
+      "slug": "chase-sapphire-preferred-review-2025",
+      "title": "Chase Sapphire Preferred Review 2025: Is It Worth It?",
+      "excerpt": "Comprehensive review of the Chase Sapphire Preferred card, including benefits, drawbacks, and value analysis.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "David Wilson",
+      "publishedAt": "2024-01-14",
+      "readTime": "12 min read",
+      "tags": ["chase", "review", "travel"],
+      "content": "Detailed Chase Sapphire Preferred review..."
+    },
+    {
+      "slug": "amex-gold-card-review-2025",
+      "title": "American Express Gold Card Review 2025",
+      "excerpt": "In-depth review of the Amex Gold Card, covering rewards, benefits, fees, and who should apply.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Emily Rodriguez",
+      "publishedAt": "2024-01-11",
+      "readTime": "10 min read",
+      "tags": ["amex", "review", "dining"],
+      "content": "Comprehensive Amex Gold Card review..."
+    },
+    {
+      "slug": "capital-one-venture-review-2025",
+      "title": "Capital One Venture Card Review 2025",
+      "excerpt": "Complete review of the Capital One Venture card, including rewards structure and travel benefits.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Alex Thompson",
+      "publishedAt": "2024-01-08",
+      "readTime": "11 min read",
+      "tags": ["capital one", "review", "travel"],
+      "content": "Detailed Capital One Venture review..."
+    }
+  ],
+  "calculators": [
+    {
+      "slug": "credit-card-interest-calculator-guide",
+      "title": "How to Use a Credit Card Interest Calculator",
+      "excerpt": "Learn how to calculate credit card interest and understand the true cost of carrying a balance.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Lisa Park",
+      "publishedAt": "2024-01-13",
+      "readTime": "8 min read",
+      "tags": ["calculator", "interest", "debt"],
+      "content": "Guide to credit card interest calculations..."
+    },
+    {
+      "slug": "balance-transfer-savings-calculator",
+      "title": "Balance Transfer Savings Calculator: How Much Can You Save?",
+      "excerpt": "Calculate potential savings from balance transfers and determine if a balance transfer card is right for you.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Robert Kim",
+      "publishedAt": "2024-01-10",
+      "readTime": "7 min read",
+      "tags": ["balance transfer", "calculator", "savings"],
+      "content": "Balance transfer savings calculator guide..."
+    },
+    {
+      "slug": "credit-card-payoff-calculator-guide",
+      "title": "Credit Card Payoff Calculator: Plan Your Debt Freedom",
+      "excerpt": "Use our payoff calculator to create a plan for eliminating credit card debt faster.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Amanda Foster",
+      "publishedAt": "2024-01-07",
+      "readTime": "9 min read",
+      "tags": ["payoff", "calculator", "debt"],
+      "content": "Credit card payoff calculator guide..."
+    }
+  ],
+  "guides": [
+    {
+      "slug": "credit-card-basics-complete-guide",
+      "title": "Credit Card Basics: Complete Beginner's Guide",
+      "excerpt": "Everything beginners need to know about credit cards, from how they work to best practices.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Sarah Johnson",
+      "publishedAt": "2024-01-15",
+      "readTime": "15 min read",
+      "tags": ["basics", "beginner", "guide"],
+      "content": "Complete credit card basics guide..."
+    },
+    {
+      "slug": "applying-for-credit-card-guide",
+      "title": "How to Apply for a Credit Card: Step-by-Step Guide",
+      "excerpt": "Complete guide to applying for credit cards, including tips to improve approval odds.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Mike Chen",
+      "publishedAt": "2024-01-12",
+      "readTime": "10 min read",
+      "tags": ["applying", "guide", "approval"],
+      "content": "Step-by-step application guide..."
+    },
+    {
+      "slug": "credit-card-debt-management-guide",
+      "title": "Credit Card Debt Management: Complete Guide",
+      "excerpt": "Strategies and tips for managing and paying off credit card debt effectively.",
+      "image": "/placeholder.svg?height=400&width=600",
+      "category": "Credit Cards",
+      "author": "Jennifer Davis",
+      "publishedAt": "2024-01-09",
+      "readTime": "12 min read",
+      "tags": ["debt management", "payoff", "strategy"],
+      "content": "Complete debt management guide..."
     }
   ]
 }
