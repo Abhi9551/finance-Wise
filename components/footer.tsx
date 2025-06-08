@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
-import Logo from "./logo"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -8,29 +7,17 @@ export default function Footer() {
       <div className="container py-12 md:py-16">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-6">
           <div className="col-span-2">
-            <Logo />
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={100}
+              height={100}
+              priority
+            />
             <p className="mt-4 text-sm text-muted-foreground">
               FinanceWise helps you make smarter financial decisions by comparing credit cards, banking options,
               investments, loans, and insurance.
             </p>
-            <div className="mt-6 flex space-x-4">
-              <Link href="#" className="rounded-full bg-background p-2 text-muted-foreground hover:text-foreground">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-background p-2 text-muted-foreground hover:text-foreground">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-background p-2 text-muted-foreground hover:text-foreground">
-                <Instagram className="h-5 w-5" />
-                <span className="sr-only">Instagram</span>
-              </Link>
-              <Link href="#" className="rounded-full bg-background p-2 text-muted-foreground hover:text-foreground">
-                <Linkedin className="h-5 w-5" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-            </div>
           </div>
           <div>
             <h3 className="text-sm font-medium">Credit Cards</h3>
@@ -137,20 +124,6 @@ export default function Footer() {
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} FinanceWise. All rights reserved.
           </p>
-          <div className="mt-4 flex justify-center space-x-6 text-xs">
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
-              Terms of Service
-            </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
-              Cookie Policy
-            </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground">
-              Sitemap
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

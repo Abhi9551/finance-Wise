@@ -3,10 +3,10 @@
 import { useState, useRef, useEffect } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
-import Logo from "@/components/logo"
 import EnhancedNavbarDropdown from "./enhanced-navbar-dropdown"
 import MobileMenu from "./mobile-menu"
 import { navItems } from "@/lib/nav-items"
+import Image from "next/image"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -53,7 +53,13 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Logo />
+              <Image
+                src="/logo.png" 
+                alt="Logo"
+                width={100}    
+                height={100}
+                priority
+              />
             </Link>
           </div>
 
@@ -69,11 +75,10 @@ export default function Navbar() {
                 >
                   <Link
                     href={item.href || "#"}
-                    className={`relative px-4 py-2 text-sm font-medium transition-all duration-200 hover:text-primary ${
-                      activeDropdown === key
+                    className={`relative px-4 py-2 text-sm font-medium transition-all duration-200 hover:text-primary ${activeDropdown === key
                         ? "text-primary after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-primary after:content-['']"
                         : "text-gray-700 hover:text-gray-900"
-                    }`}
+                      }`}
                   >
                     {item.title}
                   </Link>
