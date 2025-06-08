@@ -15,7 +15,7 @@ export default function Footer() {
               priority
             />
             <p className="mt-4 text-sm text-muted-foreground">
-              FinanceWise helps you make smarter financial decisions by comparing credit cards, banking options,
+              Finqable helps you make smarter financial decisions by comparing credit cards, banking options,
               investments, loans, and insurance.
             </p>
           </div>
@@ -122,7 +122,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t pt-8 text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} FinanceWise. All rights reserved.
+            © {new Date().getFullYear()} Finqable. All rights reserved.
           </p>
         </div>
       </div>
