@@ -350,27 +350,6 @@ export default function BestRoboAdvisorsPage() {
         </div>
       </section>
 
-      {/* Related Articles */}
-      {blogs.length > 0 && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="flex justify-between items-center mb-8">
-                <h2 className="text-3xl font-bold">Related Articles</h2>
-                <Button variant="outline" className="hidden md:flex items-center gap-2">
-                  View All Articles
-                  <ArrowRight className="w-4 h-4" />
-                </Button>
-              </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {blogs.slice(0, 3).map((blog, index) => (
-                  <BlogCard date={""} href={""} key={index} {...blog} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-    </div>
+        </div>
   )
 }

@@ -6,6 +6,7 @@ import { Star, TrendingUp, Shield, Calculator, PiggyBank, ArrowRight } from "luc
 import { getBlogsBySubcategory } from "@/lib/blog-data"
 import BlogCard from "@/components/blog-card"
 import Link from "next/link"
+import { Key } from "react"
 
 export const metadata: Metadata = {
   title: "Best High-Yield Savings Accounts of 2025 | Top Rates - FinanceWise",
@@ -294,61 +295,6 @@ export default function BestHighYieldSavingsPage() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Related Articles */}
-      <section className="py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Savings Account Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("banking", "savings").map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/banking/savings/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/banking">
-                View All Banking Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-green-600 py-12 text-white">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Start earning more on your savings today</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Don't let your money sit in a low-yield account. Compare rates and open a high-yield savings account in
-              minutes.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" variant="secondary">
-                <PiggyBank className="mr-2 h-4 w-4" />
-                Compare All Accounts
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-green-600"
-              >
-                <Calculator className="mr-2 h-4 w-4" />
-                Savings Calculator
-              </Button>
             </div>
           </div>
         </div>

@@ -209,32 +209,6 @@ export default function BestOnlineBanksPage() {
         </div>
       </section>
 
-      <section className="py-12 bg-muted">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Online Banking Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("banking", "online-banks").map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/banking/online-banks/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/banking">
-                View All Banking Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-    </div>
+         </div>
   )
 }

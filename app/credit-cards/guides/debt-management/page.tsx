@@ -463,58 +463,6 @@ export default function DebtManagementPage() {
         </div>
       </section>
 
-      {/* Related Articles */}
-      <section className="py-12 bg-muted">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Related Debt Management Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("credit-cards", "debt-management")
-              .slice(0, 3)
-              .map((blog, index) => (
-                <BlogCard
-                  key={blog.slug}
-                  image={blog.image}
-                  category={blog.category}
-                  title={blog.title}
-                  excerpt={blog.excerpt}
-                  date={blog.publishedAt}
-                  href={`/blog/credit-cards/debt-management/${blog.slug}`}
-                  aosDelay={index * 100}
-                />
-              ))}
           </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/credit-cards/guides">
-                View All Guides <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-red-600 py-12 text-white">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Take Control of Your Debt Today</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Don't let credit card debt control your life. Start with a plan and take the first step toward financial
-              freedom.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" variant="secondary">
-                <Calculator className="mr-2 h-4 w-4" />
-                Calculate Payoff Plan
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600">
-                <Shield className="mr-2 h-4 w-4" />
-                Find Balance Transfer Card
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
   )
 }

@@ -363,60 +363,6 @@ export default function DebtPayoffRecommendationPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Debt Payoff Guides</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {blogs.map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/credit-cards/best-balance-transfer/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/credit-cards">
-                View All Debt Payoff Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-blue-600 py-12 text-white">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Start your debt-free journey today</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Get personalized balance transfer card recommendations and create a plan to pay off your debt faster.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" variant="secondary">
-                <RefreshCw className="mr-2 h-4 w-4" />
-                Find My Debt Payoff Card
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600"
-              >
-                <Calculator className="mr-2 h-4 w-4" />
-                Calculate My Savings
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

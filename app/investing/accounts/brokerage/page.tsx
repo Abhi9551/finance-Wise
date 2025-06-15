@@ -228,50 +228,6 @@ export default function BestBrokerageAccountsPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="bg-muted py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Investment Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("investing", "accounts").map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/investing/accounts/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/investing">
-                View All Investment Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-green-600 py-12 text-white">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Ready to start investing?</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Compare brokerage accounts and find the perfect platform to begin your investment journey.
-            </p>
-            <Button size="lg" variant="secondary">
-              <TrendingUp className="mr-2 h-4 w-4" />
-              Compare All Brokers
-            </Button>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

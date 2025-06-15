@@ -122,28 +122,6 @@ export default function BestGroceryCardsPage() {
           </div>
         </div>
       </section>
-
-      {/* Blog Section */}
-      {blogs.length > 0 && (
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">Grocery Rewards Tips</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {blogs.slice(0, 3).map((blog, index) => (
-                <BlogCard
-                  key={index}
-                  image={blog.image}
-                  category={blog.category}
-                  title={blog.title}
-                  excerpt={blog.excerpt}
-                  date={blog.publishedAt}
-                  href={`/blog/${blog.slug}`}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
     </div>
   )
 }

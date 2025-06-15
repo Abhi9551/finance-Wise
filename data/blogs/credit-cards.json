@@ -1,80 +1,152 @@
 {
+ "meta": {
+    "best": {
+      "title": "Best Credit Cards of June 2025",
+      "updated": "June 12, 2025",
+      "authors": [
+        { "name": "Paul Soucy", "role": "Written by" },
+        { "name": "Sara Rathner", "role": "Reviewed by" },
+        { "name": "Kenley Young", "role": "Edited by" }
+      ],
+      "intro": "The best credit card is one that's best aligned with your specific needs. NerdWallet's credit card experts have reviewed and rated hundreds of options for the best credit cards of 2025 – from generous rewards and giant sign-up bonuses to long 0% APR periods and credit-building help, so you can find the best fit for your needs.",
+      "disclaimer": "Many or all of the products on this page are from partners who compensate us when you click to or take an action on their website, but this does not influence our evaluations or ratings. Our opinions are our own."
+    }
+  },
+  
   "best": [
     {
-      "slug": "best-credit-cards-2025-complete-guide",
-      "title": "Best Credit Cards of 2025: Complete Expert Guide",
-      "excerpt": "Our comprehensive guide to the best credit cards of 2025, featuring top picks for rewards, cash back, travel, and more.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Sarah Johnson",
-      "publishedAt": "2024-12-15",
-      "readTime": "12 min read",
-      "tags": ["best credit cards", "2025", "expert guide"],
-      "content": "Complete guide to the best credit cards of 2025..."
+      "id": "reflect-card",
+      "name": "Wells Fargo Reflect® Card",
+      "tagline": "Best for Longest intro APR period",
+      "rating": "4.5/5",
+      "annualFee": "$0",
+      "introOffer": "N/A",
+      "rewardsRate": "N/A",
+      "rewardsType": "",
+      "applyUrl": "https://www.wellsfargo.com/credit-cards/reflect/",
+      "image": "/cards/reflect.png"
     },
     {
-      "slug": "how-to-choose-best-credit-card",
-      "title": "How to Choose the Best Credit Card for Your Needs",
-      "excerpt": "Step-by-step guide to selecting the perfect credit card based on your spending habits and financial goals.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Mike Chen",
-      "publishedAt": "2024-12-10",
-      "readTime": "8 min read",
-      "tags": ["choosing", "guide", "selection"],
-      "content": "Detailed guide on choosing the right credit card..."
+      "id": "discover-it-cash-back",
+      "name": "Discover it® Cash Back - 18 Month Intro Balance Transfer Offer",
+      "tagline": "Best for Long intro period + quarterly categories",
+      "rating": "4.9/5",
+      "annualFee": "$0",
+      "introOffer": "Cashback Match™",
+      "rewardsRate": "1%-5%",
+      "rewardsType": "Cashback",
+      "applyUrl": "https://www.discover.com/credit-cards/cash-back/",
+      "image": "/cards/discover.png"
     },
     {
-      "slug": "credit-card-approval-tips-2025",
-      "title": "Credit Card Approval Tips: Increase Your Chances in 2025",
-      "excerpt": "Expert tips and strategies to improve your credit card approval odds and get the cards you want.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Jennifer Davis",
-      "publishedAt": "2024-12-05",
-      "readTime": "10 min read",
-      "tags": ["approval", "tips", "strategy"],
-      "content": "Tips for getting approved for credit cards..."
+      "id": "citi-simplicity",
+      "name": "Citi Simplicity® Card",
+      "tagline": "Best for Balance transfers + no late fees",
+      "rating": "4.5/5",
+      "annualFee": "$0",
+      "introOffer": "N/A",
+      "rewardsRate": "N/A",
+      "rewardsType": "",
+      "applyUrl": "https://www.citi.com/credit-cards/compare-credit-cards/citi-simplicity",
+      "image": "/cards/simplicity.png"
+    },
+    {
+      "id": "capital-one-savor-student",
+      "name": "Capital One Savor Student Cash Rewards Credit Card",
+      "tagline": "Best for Going out & staying in",
+      "rating": "5.0/5",
+      "annualFee": "$0",
+      "introOffer": "$100",
+      "rewardsRate": "1%-8%",
+      "rewardsType": "Cashback",
+      "applyUrl": "https://www.capitalone.com/credit-cards/savorone-student-cash-rewards/",
+      "image": "/cards/savor.png"
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Wells Fargo Active Cash® Card",
+      "tagline": "Best for Flat-rate cash back",
+      "rating": "5.0/5",
+      "annualFee": "$0",
+      "introOffer": "$200",
+      "rewardsRate": "2%",
+      "rewardsType": "Cashback",
+      "applyUrl": "https://www.wellsfargo.com/credit-cards/active-cash/",
+      "image": "/cards/activecash.png"
     }
   ],
-  "best-bonus-offers": [
-    {
-      "slug": "highest-credit-card-bonuses-2025",
-      "title": "Highest Credit Card Sign-Up Bonuses of 2025",
-      "excerpt": "Discover the credit cards offering the most generous welcome bonuses worth $1,000+ in value.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "David Wilson",
-      "publishedAt": "2024-12-12",
-      "readTime": "9 min read",
-      "tags": ["bonuses", "welcome offers", "sign-up"],
-      "content": "Guide to the highest credit card bonuses..."
+   "best-bonus-offers": {
+    "meta": {
+      "title": "Best Credit Card Bonus Offers of 2025",
+      "updated": "June 12, 2025",
+      "authors": [
+        { "name": "Paul Soucy", "role": "Written by" },
+        { "name": "Sara Rathner", "role": "Reviewed by" },
+        { "name": "Kenley Young", "role": "Edited by" }
+      ],
+      "intro": "Maximize your rewards with the highest welcome bonuses available. Compare sign-up offers worth $600 to $1,000+ from top credit cards.",
+      "disclaimer": "Many or all of the products on this page are from partners who compensate us when you click to or take an action on their website, but this does not influence our evaluations or ratings. Our opinions are our own."
     },
-    {
-      "slug": "how-to-meet-credit-card-spending-requirements",
-      "title": "How to Meet Credit Card Spending Requirements Safely",
-      "excerpt": "Smart strategies to meet minimum spending requirements for credit card bonuses without overspending.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Emily Rodriguez",
-      "publishedAt": "2024-12-08",
-      "readTime": "7 min read",
-      "tags": ["spending requirements", "strategy", "bonuses"],
-      "content": "Safe ways to meet spending requirements..."
-    },
-    {
-      "slug": "credit-card-bonus-value-calculator",
-      "title": "How to Calculate Credit Card Bonus Value",
-      "excerpt": "Learn how to properly value credit card sign-up bonuses to find the best offers.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Alex Thompson",
-      "publishedAt": "2024-12-03",
-      "readTime": "6 min read",
-      "tags": ["bonus value", "calculation", "analysis"],
-      "content": "Guide to calculating bonus value..."
-    }
-  ],
+    "cards": [
+      {
+        "id": "amex-gold",
+        "name": "American Express® Gold Card",
+        "issuer": "American Express",
+        "image": "/images/cards/amex-gold.png",
+        "rating": 4.8,
+        "category": "Travel Rewards",
+        "welcomeBonus": "60,000 points",
+        "bonusValue": "$1,200",
+        "spendRequirement": "$4,000 in 6 months",
+        "annualFee": "$250",
+        "features": [
+          "4X points at restaurants",
+          "3X on flights",
+          "No foreign transaction fees",
+          "Dining credits included"
+        ],
+        "bestFor": "Foodies and travelers"
+      },
+      {
+        "id": "chase-sapphire",
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "image": "/images/cards/chase-sapphire.png",
+        "rating": 4.7,
+        "category": "Travel & Dining",
+        "welcomeBonus": "75,000 points",
+        "bonusValue": "$900",
+        "spendRequirement": "$4,000 in 3 months",
+        "annualFee": "$95",
+        "features": [
+          "2X points on travel and dining",
+          "25% more value through Chase Travel",
+          "Flexible point transfers",
+          "Trip cancellation insurance"
+        ],
+        "bestFor": "Travelers looking for flexibility"
+      },
+      {
+        "id": "chase-sapphire",
+        "name": "Chase Sapphire Preferred® Card",
+        "issuer": "Chase",
+        "image": "/images/cards/chase-sapphire.png",
+        "rating": 4.7,
+        "category": "Travel & Dining",
+        "welcomeBonus": "75,000 points",
+        "bonusValue": "$900",
+        "spendRequirement": "$4,000 in 3 months",
+        "annualFee": "$95",
+        "features": [
+          "2X points on travel and dining",
+          "25% more value through Chase Travel",
+          "Flexible point transfers",
+          "Trip cancellation insurance"
+        ],
+        "bestFor": "Travelers looking for flexibility"
+      }
+    ]
+  },
   "best-balance-transfer": [
     {
       "slug": "balance-transfer-guide-2025",
@@ -568,5 +640,8 @@
       "tags": ["debt management", "payoff", "strategy"],
       "content": "Complete debt management guide..."
     }
+  ],
+  "resources": [
+      
   ]
 }

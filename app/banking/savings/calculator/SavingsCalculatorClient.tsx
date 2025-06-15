@@ -258,35 +258,6 @@ export default function SavingsCalculatorClient() {
         </div>
       </section>
 
-      {/* Related Articles */}
-      <section className="py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Savings Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("banking", "savings")
-              .slice(0, 6)
-              .map((blog, index) => (
-                <BlogCard
-                  key={blog.slug}
-                  image={blog.image}
-                  category={blog.category}
-                  title={blog.title}
-                  excerpt={blog.excerpt}
-                  date={blog.publishedAt}
-                  href={`/blog/banking/savings/${blog.slug}`}
-                  aosDelay={index * 100}
-                />
-              ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/banking/savings/explore">
-                Explore More Savings Resources <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
   )
 }

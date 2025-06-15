@@ -201,35 +201,6 @@ export default function BestRewardsCardsPage() {
           </div>
         </div>
       </section>
-
-      {/* Blog Section */}
-      {blogs.length > 0 && (
-        <section className="py-16">
-          <div className="container mx-auto px-4">
-            <div className="flex justify-between items-center mb-12">
-              <h2 className="text-3xl font-bold">Related Articles</h2>
-              <Button variant="outline">
-                View All Articles
-                <ArrowRight className="w-4 h-4 ml-2" />
-              </Button>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {blogs.slice(0, 3).map((blog, index) => (
-                <BlogCard
-                  key={index}
-                  image={blog.image}
-                  category={blog.category}
-                  title={blog.title}
-                  excerpt={blog.excerpt}
-                  date={blog.publishedAt}
-                  href={`/blog/${blog.slug}`}
-                  aosDelay={index * 100}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
     </div>
   )
 }

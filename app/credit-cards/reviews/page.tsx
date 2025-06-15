@@ -294,56 +294,6 @@ export default function CreditCardReviewsPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="bg-muted py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Latest Review Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {blogs.map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/credit-cards/reviews/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/credit-cards">
-                View All Credit Card Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-primary py-12 text-primary-foreground">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Need help choosing a credit card?</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Our expert reviews and comparison tools make it easy to find the perfect credit card for your needs and
-              spending habits.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" variant="secondary">
-                <Star className="mr-2 h-4 w-4" />
-                Browse All Reviews
-              </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
-                Compare Cards
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

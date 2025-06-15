@@ -403,62 +403,6 @@ export default function ApplyingCreditCardPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="py-12 bg-muted">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Related Credit Card Guides</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("credit-cards", "guides")
-              .slice(0, 3)
-              .map((blog, index) => (
-                <BlogCard
-                  key={blog.slug}
-                  image={blog.image}
-                  category={blog.category}
-                  title={blog.title}
-                  excerpt={blog.excerpt}
-                  date={blog.publishedAt}
-                  href={`/blog/credit-cards/guides/${blog.slug}`}
-                  aosDelay={index * 100}
-                />
-              ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/credit-cards/guides">
-                View All Guides <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-blue-600 py-12 text-white">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Ready to Apply for Your Credit Card?</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Now that you know the process, check your credit score and find the right card for your needs.
-            </p>
-            <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-              <Button size="lg" variant="secondary">
-                <CreditCard className="mr-2 h-4 w-4" />
-                Find My Card
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-blue-600"
-              >
-                <FileText className="mr-2 h-4 w-4" />
-                Check Credit Score
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

@@ -192,26 +192,6 @@ export default function Best6MonthCDPage() {
           </div>
         </div>
       </section>
-
-      <section className="py-12 bg-muted">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">CD Articles</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("banking", "cds").map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/banking/cds/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

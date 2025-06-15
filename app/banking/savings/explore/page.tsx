@@ -231,54 +231,7 @@ export default function ExploreSavingsPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Savings Articles & Guides</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {getBlogsBySubcategory("banking", "savings").map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/banking/savings/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/banking">
-                View All Banking Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-12 bg-gradient-to-r from-green-600 to-green-700 text-white">
-        <div className="container text-center">
-          <h2 className="mb-4 text-3xl font-bold">Ready to Start Saving?</h2>
-          <p className="mb-8 text-xl opacity-90">
-            Compare the best savings accounts and start growing your money today.
-          </p>
-          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Button size="lg" variant="secondary">
-              <TrendingUp className="mr-2 h-4 w-4" />
-              Compare Savings Accounts
-            </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-green-600">
-              <Calculator className="mr-2 h-4 w-4" />
-              Use Savings Calculator
-            </Button>
-          </div>
-        </div>
-      </section>
+ 
     </div>
   )
 }

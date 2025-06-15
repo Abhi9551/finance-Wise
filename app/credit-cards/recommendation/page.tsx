@@ -218,52 +218,6 @@ export default function CreditCardRecommendationPage() {
           </div>
         </div>
       </section>
-
-      {/* Related Articles */}
-      <section className="bg-muted py-12">
-        <div className="container">
-          <h2 className="mb-8 text-center text-3xl font-bold">Recommendation Guides</h2>
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {blogs.map((blog, index) => (
-              <BlogCard
-                key={blog.slug}
-                image={blog.image}
-                category={blog.category}
-                title={blog.title}
-                excerpt={blog.excerpt}
-                date={blog.publishedAt}
-                href={`/blog/credit-cards/recommendation/${blog.slug}`}
-                aosDelay={index * 100}
-              />
-            ))}
-          </div>
-          <div className="mt-8 text-center">
-            <Button asChild variant="outline">
-              <Link href="/blog/credit-cards">
-                View All Credit Card Articles <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-primary py-12 text-primary-foreground">
-        <div className="container">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-4 text-3xl font-bold">Ready to find your perfect credit card?</h2>
-            <p className="mb-8 text-lg opacity-90">
-              Take our quick quiz to get personalized recommendations based on your unique needs and spending patterns.
-            </p>
-            <Button size="lg" variant="secondary" asChild>
-              <Link href="/credit-cards/recommendation/quiz">
-                <Target className="mr-2 h-4 w-4" />
-                Start Recommendation Quiz
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
