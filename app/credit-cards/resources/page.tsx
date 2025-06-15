@@ -88,7 +88,6 @@ const resourceCategories = [
 ]
 
 export default function CreditCardResourcesPage() {
-  const allBlogs = getAllBlogsByCategory("credit-cards").slice(0, 6)
 
   return (
     <div className="min-h-screen bg-background">
