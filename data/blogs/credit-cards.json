@@ -147,44 +147,17 @@
       }
     ]
   },
-  "best-balance-transfer": [
-    {
-      "slug": "balance-transfer-guide-2025",
-      "title": "Complete Balance Transfer Guide 2025",
-      "excerpt": "Everything you need to know about balance transfers, from choosing cards to maximizing savings.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Lisa Park",
-      "publishedAt": "2024-12-14",
-      "readTime": "11 min read",
-      "tags": ["balance transfer", "debt payoff", "guide"],
-      "content": "Complete guide to balance transfers..."
-    },
-    {
-      "slug": "balance-transfer-mistakes-avoid",
-      "title": "5 Balance Transfer Mistakes That Cost You Money",
-      "excerpt": "Common balance transfer mistakes and how to avoid them to maximize your debt payoff savings.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Robert Kim",
-      "publishedAt": "2024-12-09",
-      "readTime": "8 min read",
-      "tags": ["mistakes", "balance transfer", "debt"],
-      "content": "Common balance transfer mistakes..."
-    },
-    {
-      "slug": "balance-transfer-vs-personal-loan",
-      "title": "Balance Transfer vs Personal Loan: Which is Better?",
-      "excerpt": "Compare balance transfer cards and personal loans to find the best debt consolidation option.",
-      "image": "/placeholder.svg?height=400&width=600",
-      "category": "Credit Cards",
-      "author": "Amanda Foster",
-      "publishedAt": "2024-12-04",
-      "readTime": "9 min read",
-      "tags": ["comparison", "personal loan", "debt consolidation"],
-      "content": "Balance transfer vs personal loan comparison..."
-    }
-  ],
+  "best-balance-transfer": {  
+      "title": "Best Balance Tansfer Card of 2025",
+      "updated": "June 12, 2025",
+      "authors": [
+        { "name": "Paul Soucy", "role": "Written by" },
+        { "name": "Sara Rathner", "role": "Reviewed by" },
+        { "name": "Kenley Young", "role": "Edited by" }
+      ],
+      "intro": "Maximize your rewards with the highest welcome bonuses available. Compare sign-up offers worth $600 to $1,000+ from top credit cards.",
+      "disclaimer": "Many or all of the products on this page are from partners who compensate us when you click to or take an action on their website, but this does not influence our evaluations or ratings. Our opinions are our own."
+  },
   "best-travel": [
     {
       "slug": "best-travel-credit-cards-2025",
